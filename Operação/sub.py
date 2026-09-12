@@ -1,4 +1,4 @@
-num1=15
-num2=7
-sub=num1-num2
-print("Resultado: ", sub)
+num1=int(input("Digite um número inteiro: "))
+num2=int(input("Digite outro número inteiro: "))
+total=num1-num2
+print("Resposta da subtração: ", total)
