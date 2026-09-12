@@ -1,3 +1,6 @@
+#Atividade 4:
+#Faça um programa em Python que solicite o nome do estudante e suas notas trimestrais.
+#Em seguida faça com que o programa calcule a média do estudante e imprima as informações.
 nome=input("Digite seu nome: ")
 n1=int(input("Digite a nota do primeiro trimestre: "))
 n2=int(input("Digite a nota do segundo trimestre: "))
