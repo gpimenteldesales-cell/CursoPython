@@ -8,13 +8,21 @@ match opcao:
     
     case 1:
         produtosCarrinho=["GTA VI", "RTX5050", "TECLADO MECÂNICO"]
+        
         print("Opção 'Cadastrar seu produto no carrinho' selecionada.")
+        
         nomeProduto=input("\nDigite o nome do produto que deseja comprar: ")
+        
         preçoProduto=float(input("\nQual o valor do produto que deseja comprar? "))
+        
         quantidadeProduto=int(input("\nQual a quantidade do produto que deseja comprar? "))
+        
         compraDoProduto=preçoProduto*quantidadeProduto
+        
         print(f"PRODUTO:{nomeProduto}\nQUANTIDADE:{quantidadeProduto}\n\nVALOR TOTAL:{compraDoProduto}")
+        
         comprou=int(input("\n\nDigite '1' para colocar no carrinho\nDigite '2' para sair"))
+        
         match comprou:
             case 1:
                 produtoComprado=[nomeProduto, quantidadeProduto, compraDoProduto]
