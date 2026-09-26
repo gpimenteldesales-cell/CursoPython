@@ -1,34 +1,34 @@
-# # Checar Maioridade
-# idade = int(input("Digite sua idade: \n"))
+# Checar Maioridade
+idade = int(input("Digite sua idade: \n"))
 
-# if idade >= 18:
-#     print("Acesso Autorizado")
-# else:
-#     print("Acesso não autorizado")
+if idade >= 18:
+    print("Acesso Autorizado")
+else:
+    print("Acesso não autorizado")
 
-# # Verificar Número Positivo
-# num = int (input("Digite um número inteiro: \n"))
+# Verificar Número Positivo
+num = int (input("Digite um número inteiro: \n"))
 
-# if num >= 0:
-#     print("Número é positivo")
-# else:
-#     print("Número é negativo")
+if num >= 0:
+    print("Número é positivo")
+else:
+    print("Número é negativo")
     
-# # Autenticação de Senha
-# pin = 1234
-# inp = int(input("Digite a o PIN\n"))
+# Autenticação de Senha
+pin = 1234
+inp = int(input("Digite a o PIN\n"))
 
-# if inp == pin:
-#     print("Login realizado com sucesso.")
-# else:
-#     print("Saia!!")
+if inp == pin:
+    print("Login realizado com sucesso.")
+else:
+    print("Saia!!")
 
 # Pesquisa em Lista
-frutas = ["Maçã", "Banana", "Laranja"]
-escolhaFrutas = input(f"{frutas}\nEscolha um produto do estoque:\n")
+frutas = ["maçã", "banana", "laranja"]
+escolhaFrutas = input(f"{frutas}\nEscolha um produto do estoque:\n").lower()
 
 
-if escolhaFrutas.lower() in frutas:
+if escolhaFrutas in frutas:
     print("Fruta disponivel no estoque.")
 else:
     print("Fruta indisponivel no estoque.")
